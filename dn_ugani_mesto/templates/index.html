@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block naslov %}Prva stran{% endblock %}
+{% block vsebina %}
+<img src="{{ glavno_mesto.slika }}" width="400px">
+
+<h3>Glavno mesto drzave - {{ glavno_mesto.drzava }} je?</h3>
+
+<form action="/rezultat" method="post">
+    <p>
+        <strong>Vnesite: </strong>
+        <input name="odgovor" placeholder="Vnesi glavno mesto">
+        <input type="hidden" value="{{ glavno_mesto.drzava }}" name="drzava">
+        <button type="submit">Poslji</button>
+    </p>
+</form>
+{% endblock %}

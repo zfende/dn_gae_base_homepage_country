@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block naslov %}Rezultat{% endblock %}
+{% block vsebina %}
+{% if rezultat %}
+<p>Vas odgovor <strong>JE PRAVILEN!</strong></p>
+{% else %}
+<p> Vas odgovor <strong>NI PRAVILEN!</strong></p>
+{% endif %}
+<a href="/">
+    <p><button type="submit">Poskusi ponovno</button></p>
+</a>
+{% endblock %}

@@ -1,0 +1,112 @@
+body {
+    background-image: url("http://dvqlxo2m2q99q.cloudfront.net/000_clients/122354/12235413322cJRF.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Arial;
+    font-style: normal;
+    color: white;
+}
+
+.glava-levo {
+  height: 30px;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  background-color: #F7F7F7;
+  border-top: 1px solid lightgray;
+  padding: 7px 44px 0 44px;
+  margin-left: -10px;
+}
+
+.glava-levo a {
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  font-size: 11px;
+  color: #737373;
+  padding: 0 10px;
+}
+
+.glava-levo a:hover {
+  text-decoration: underline;
+}
+
+.naslov {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
+
+body>img {
+    border-radius: 50%;
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body>img:hover {
+    border: 2px orange solid;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    text-align: center;
+    color: gold;
+}
+
+.besedilo {
+    color: orange;
+}
+
+a img {
+    width: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a img:hover {
+    width: 35px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.noga-levo {
+  height: 30px;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  background-color: #F7F7F7;
+  border-top: 1px solid lightgray;
+  padding: 7px 44px 0 44px;
+  margin-left: -10px;
+}
+
+.noga-levo a {
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  font-size: 11px;
+  color: #737373;
+  padding: 0 10px;
+}
+
+.noga-levo a:hover {
+  text-decoration: underline;
+}
+
+.noga-desno {
+  float: right;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  font-size: 11px;
+  color: #737373;
+  padding: 0 60px;
+}
